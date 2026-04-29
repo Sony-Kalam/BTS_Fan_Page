@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(130deg,
+    #d272e5, #f0aff4, #9f98e5,#aedff4, #f5c9f2, #fecdf7 ); 
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+header{
+    text-align: center;
+    font-size: x-large;
+    width:100%;
+}
+div{
+    background: linear-gradient(130deg,
+    #d272e5, #f0aff4, #9f98e5,#aedff4, #f5c9f2, #fecdf7 ); 
+    margin:20px;
+    border-radius: 15px;
+    width:250px;
+    height:320px;
+    display:flex;
+    justify-content: center;
+}
+img{
+    width: 200px;
+    height:200px;
+    border-radius: 25px;
+}
+audio{
+    width:200px;
+    height: 30px;
+}
+figure{
+    text-align: center;
+    display: inline-block;
+}
+figcaption{
+    margin-top:10px;
+}

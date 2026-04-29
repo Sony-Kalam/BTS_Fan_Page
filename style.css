@@ -1,0 +1,124 @@
+/*home page*/
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background:linear-gradient(100deg, #3d0553, #7e2db8, #db5ae1);
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    padding:15px 30px;
+}
+a{
+    color: white;
+}
+.firstdiv{
+    background:linear-gradient(100deg, #3d0553, #7e2db8, #db5ae1);
+    color: white;
+    width:98%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.half{
+    color: white;
+    text-align:center;
+}
+.half img {
+  max-width: 100%;      /* image fits inside its half */
+  height: auto;         /* keeps aspect ratio */
+}
+.seconddiv{
+    background:linear-gradient(100deg, #3d0553, #7e2db8, #db5ae1);
+    color: white;
+    width:98%;
+}
+.seconddiv img{
+    border-radius: 30px;
+}
+figure{
+    text-align: center;
+    display: inline-block;
+}
+figcaption{
+                margin-top:10px;
+            }
+.imgdiv{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.thirddiv{
+    background: linear-gradient(100deg, 
+    rgba(61, 5, 83, 0.8), 
+    rgba(126, 45, 184, 0.8),
+     rgba(219, 90, 225, 0.8)), 
+              url('images/bgmi.jpeg');
+    background-size: cover;
+    color: white;
+    width:98%;
+}
+.thirddiv img{
+    border-radius: 30px;
+    width:150px;
+    height:150px;
+}
+h2,p{
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 1px 5px black;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:7%;}
+.footer img{
+    border-radius: 10px;
+    width:50px;
+    height:50px ;
+}
+.firstdiv, .seconddiv, .thirddiv {
+  margin: 20px 0; /* spacing between sections */
+  padding: 10px;  /* inner spacing */
+  border-radius: 10px; /* smooth corners */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* shadow effect */
+}
+/*About page*/
+.aboutdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.img1 {
+    width: auto;
+    max-width: 400px;
+    max-height:90vh;
+    height: auto;
+    display: block;
+}
+table td{
+   padding: 10px;
+}
+.page{
+    width: 90%;
+    height: 90%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*Members Page*/
+.body{
+    background-image: url(images/bgi.png);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;          
+    justify-content: center;
+    align-items: center;
+}
