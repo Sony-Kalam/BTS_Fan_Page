@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sony-kalam.github.io/BTS_Fan_Page/sitemap.xml
